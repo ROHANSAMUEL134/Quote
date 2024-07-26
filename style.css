@@ -1,0 +1,197 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.purple-bg{
+    width:100%;
+    height:600px;
+    background: linear-gradient(90deg, #ab6bff 0%, #494bb8 100%);
+    color:white;
+}
+
+#header{
+    display: flex;
+    transform: translateX(20px);
+}
+
+#logo{
+    display: flex;
+    margin-left:80px;
+    
+}
+
+#logo img{
+    height:40px;
+    border-radius: 50%;
+    
+}
+
+span{
+    font-weight: 500;
+    font-size: 20px;
+    transform: translate(5px,5px);
+
+}
+
+nav{
+    transform: translate(50px,-9px);
+}
+
+ul li{
+    list-style: none;
+    display:inline-block;
+    margin:auto 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+select{
+    transform: translate(140px,4px);
+    color:white;
+    height:30px;
+    background-color: rgba(0,0,0,0);
+    padding:5px;
+}
+
+#lang{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.flag{
+    width:15px;
+    height:auto;
+}
+
+option{
+    background-color: #494bb8;
+}
+
+option:focus{
+    color:#494bb8;
+    background-color: #fff;;
+}
+
+hr{
+    width:85%;
+    background-color: white;
+}
+
+.below-header{
+    width:85%;
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    font-weight: 300;
+}
+
+.below-header i{
+    font-size: medium;
+}
+
+.below-header-left{
+    margin-top: 13px;
+}
+
+.below-header-left , .below-header-right{
+    display: flex;    
+}
+
+.shift-right{
+    margin-left: 20px;
+}
+
+.shift-left{
+    margin-right: 20px;
+}
+
+h1{
+    font-weight: 350;
+    font-size: 40px;
+}
+
+.text{
+    font-weight: 350;
+}
+
+#form{
+    width:60%;
+    color: black;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+#left-right{
+    background-color: #fff;
+    color: black;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-form, #right-form{
+    text-align: left;
+}
+
+.move-right{
+    margin-left: 60px;
+}
+
+input{
+    width:280px;
+}
+
+.input-full-width{
+    width: 90.5%;
+}
+
+.file{
+    height:  100px;
+    width: 91%;
+    border: 2px dashed gray;
+    border-radius: 15px;
+    background-color: rgb(221, 221, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color : #6f00ff;
+}  
+
+.file button{
+    background: linear-gradient(90deg, #494bb8 0%,#8230ee 100%);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px;
+    transform: translateY(-15px);
+}
+
+.project{
+    width:286px;
+    height:27px;
+    color:black;
+    transform: translateX(1px);
+}
+
+.project option{
+    background-color: #fff;
+}
+
+textarea{
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.final{
+    padding: 15px 50px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #ab6bff 0%, #494bb8 100%);
+    color:#fff;
+    margin: 10px auto;
+}
